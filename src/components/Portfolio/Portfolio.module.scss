@@ -1,7 +1,8 @@
 @import '../../styles/contants.scss';
 
 .wrapper{
-    background: #16142c;
+    background:  linear-gradient(to right, #0072ff, #00c6ff);
+    // color: black;
     overflow: hidden;
     @media (min-width: 768px) { // Presupunând că $lg este lățimea la care consideri un dispozitiv ca fiind un PC
         display: none; // Aceasta va ascunde wrapper-ul pe dispozitivele cu ecran mare
