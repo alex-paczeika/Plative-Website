@@ -1,0 +1,144 @@
+@import './contants.scss';
+
+.bg-primary {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.innerWidth {
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  width: 100%;
+}
+
+.paddings {
+  @media (min-width: $sm) {
+    padding: 4rem;
+  }
+
+
+  @media (min-width: $xl),
+  (min-width: $md) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.xPaddings {
+  @media (min-width: $sm) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  padding-left: 1.5rem;
+  /* 24px */
+  padding-right: 1.5rem;
+  /* 24px */
+}
+
+.yPaddings {
+  @media (min-width: $sm) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.topPaddings {
+  @media (min-width : $sm) {
+    padding-top: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-top: 2rem;
+  }
+
+  padding-top: 3rem;
+}
+
+
+.bottomPaddings {
+  @media (min-width : $sm) {
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-bottom: 2rem;
+  }
+
+  padding-bottom: 3rem;
+}
+
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-items: end;
+}
+
+.primaryText {
+  @media (max-width: $sm) {
+    font-size: 2.5rem; // Smaller screen font size
+}
+font-size: 3rem; // Default font size
+font-weight: bold; // Font weight
+
+// Gradient background
+background: white; // Example blue gradient
+-webkit-background-clip: text;
+background-clip: text;
+
+// Making the text transparent to show the gradient
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent; // Fallback for non-webkit browsers
+display: inline-block;
+
+}
+
+.secondaryText {
+  @media (max-width: $sm) {
+    img {
+      width: 90%; // Makes the image responsive
+      max-width: 90px; // Adjust max-width as needed for smaller screens
+    }
+  }
+
+  img {
+    width: 90%;
+    max-width: 200px; // Adjust max-width as needed for larger screens
+  }
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
