@@ -17,12 +17,15 @@ const Hero = () => {
 
         <div className={css.upperElements}>
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
-            Comunica cu ceilalti soferi
+            Comunica cu ceilalti         <br />soferi
             <br />
             din trafic.
           </motion.span>
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
-            <img src="appstore.png" alt="Description of the image" />
+          <a href="https://apps.apple.com/ro/app/plative/id1628529979" target="_blank">
+    <img src="appstore.png" alt="Download Plative on the App Store" />
+</a>
+
           </motion.span>
         </div>
 
@@ -44,10 +47,10 @@ const Hero = () => {
             </div>
           </motion.div> */}
 
-          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
+          {/* <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
             <img src="./scrolldown.gif" alt="" />
 
-          </motion.div>
+          </motion.div> */}
         </div>
 
       </motion.div>

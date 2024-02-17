@@ -1,21 +1,11 @@
 @import '../../styles/contants.scss';
-.primaryText {
-    font-size: 3rem; /* Default font size */
-    font-weight: bold; /* Font weight */
-    color: black; /* Text color */
-    display: inline-block;
 
-    @media (max-width: $sm) {
-      font-size: 2.5rem; /* Smaller screen font size */
-      color: white; /* Ensuring text color is black on smaller screens as well */
-    }
-  }
 .wrapper {
     position: relative;
     overflow: hidden;
     background:  linear-gradient(to right, #0072ff, #00c6ff);
 
-
+   
 
     .container {
         position: relative;
