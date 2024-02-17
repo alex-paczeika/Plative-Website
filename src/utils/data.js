@@ -3,9 +3,8 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
+    name: "Usor de folosit",
+    icon: CiMobile1,
     bg: "#286F6C",
   },
   {
@@ -17,26 +16,26 @@ export const projectExperience = [
   {
     name: "Brand Identity",
     projects: 47,
-    icon: MdWorkspacesOutline,
+    icon: CiMobile1,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "Acordă stele pentru gesturi amabile și caută șoferi după numărul de înmatriculare, transformând fiecare călătorie într-o ocazie de a construi o comunitate mai prietenoasă pe drumuri.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Transformă fiecare călătorie cu mașina într-o oportunitate de a descoperi și de a interacționa cu comunitatea din jurul tău.",
+  "Această aplicație facilitează comunicarea între șoferi, deschizând calea către un schimb de informații utile, sfaturi despre trafic, recomandări locale și chiar asistență reciprocă în situații neașteptate.",
 ];
 
 export const workExp = [
   {
     place: "",
-    tenure: "Transformă fiecare călătorie cu mașina într-o oportunitate de a descoperi și de a interacționa cu comunitatea din jurul tău.",
+    tenure: "",
     role: "Caută",
     detail: "Dacă blochezi pe cineva, vei fi anunțat să îți muți mașina.",
   },
   {
     place: "",
-    tenure: "Această aplicație facilitează comunicarea între șoferi, deschizând calea către un schimb de informații utile, sfaturi despre trafic, recomandări locale și chiar asistență reciprocă în situații neașteptate.",
+    tenure: "",
     role: "Găsește",
     detail: "Dacă uiți farurile aprinse, geamurile deschise sau observi un șofer care parchează inadecvat sau căruia urmează să i se ridice mașina, îl poți anunța.",
   },

@@ -36,7 +36,7 @@
 
                 .line {
                     position: absolute;
-                    height: 92%;
+                    height: 100%;
                     width: 2px;
                     background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
                     background-position: right;
@@ -44,7 +44,7 @@
                     background-repeat: repeat-y;
                     left: 48%;
                     z-index: 1;
-                    border-radius: 5px;
+                    border-radius: 20px;
                 }
 
                 >div {
@@ -55,8 +55,8 @@
                     .circle {
                         border-radius: 50%;
                         background: black;
-                        width: 1.2rem;
-                        height: 1.2rem;
+                        width: 1.5em;
+                        height: 1.5em;
                     }
                 }
             }

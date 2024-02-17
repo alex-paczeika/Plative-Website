@@ -40,21 +40,27 @@ const Hero = () => {
 
         <div className={css.lowerElements}>
           {/* <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">10</div>
+            <div className="primaryText">10dsadasda</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
             </div>
           </motion.div> */}
 
-          {/* <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./scrolldown.gif" alt="" />
 
-          </motion.div> */}
+
+
+
         </div>
 
       </motion.div>
-
+      <motion.p
+  variants={fadeIn("left", "tween", 0.5, 1)}
+  className={css.paragraph}
+>
+Transformă fiecare călătorie cu mașina într-o oportunitate de a descoperi și de a interacționa cu comunitatea din jurul tău.<br/><br/>
+Această aplicație facilitează comunicarea între șoferi, deschizând calea către un schimb de informații utile, sfaturi despre trafic, recomandări locale și chiar asistență reciprocă în situații neașteptate.
+</motion.p>
     </section>
 
   );

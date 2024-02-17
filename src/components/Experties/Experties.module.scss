@@ -1,78 +1,39 @@
 @import '../../styles/contants.scss';
 
 .wrapper {
+    width: 100vw;
+    min-height: 100vh;
     background: white;
+    display: flex;
+    justify-content: center; // Acest lucru va centra container-ul pe verticală
+    align-items: center; // Acest lucru va centra container-ul pe orizontală
+    padding: 0;
+    margin: 0;
 
     .container {
-        align-items: flex-start;
+        width: 80%; // Ajustează această valoare după cum este necesar
+        max-width: 1200px; // O lățime maximă, dacă este necesar
+        display: flex;
+        flex-direction: column;
         gap: 2rem;
+        margin: 0; // Eliminăm orice margin implicit
 
-        flex-wrap: wrap;
         >div {
             flex: 1;
+            // Asigură-te că nu există margini sau padding-uri implicite care să adauge spațiu suplimentar
+            margin: 0;
+            padding: 0;
         }
 
-        .leftSide {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-
-            .exp {
-                display: flex;
-                align-items: center;
-                border: 1px solid $secondary-white;
-                border-radius: 20px;
-                padding: 1.5rem;
-                gap: 2rem;
-                transition: all 200ms ease-out;
-
-                &:hover {
-                    cursor: pointer;
-                    box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.04);
-                }
-
-                //icon circles
-                >:nth-child(1) {
-                    padding: 10px;
-                    width: 3rem;
-                    height: 3rem;
-                    border-radius: 999px;
-                }
-
-                //description
-                >:nth-child(2) {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1rem;
-
-                    >:nth-child(1) {
-                        font-size: 1.6rem;
-                        font-weight: bold;
-
-                    }
-                }
-            }
+        .leftSide, .rightSide {
+            // Dacă mai există stiluri pentru .leftSide și .rightSide, asigură-te că sunt eliminate sau ajustate corespunzător
+            // De exemplu, dacă .leftSide și .rightSide nu sunt necesare, le poți elimina complet din SCSS
         }
 
-
-
-        .rightSide {
-            @media (max-width: $sm) {
-                text-align: center;
-            }
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-
-            .stats {
-                justify-content: flex-start;
-                gap: 4rem;
-
-                .stat {
-                    flex-direction: column;
-                    justify-content: flex-start;
-                }
-            }
+        .stats {
+            // Ajustează sau elimină orice stiluri care pot adăuga spațiu suplimentar
+            padding: 0;
+            margin: 0;
         }
     }
 }

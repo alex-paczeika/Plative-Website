@@ -24,10 +24,10 @@ const App = () => {
 
       <Header/>
       <Hero/>
-
+      {/* <Experties/> */}
       <Work/>
       <Portfolio/>
-      {/* <Experties/> */}
+
 
 
       <People/>
