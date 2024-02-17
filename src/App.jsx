@@ -13,13 +13,13 @@ const App = () => {
   return (
     <div className={`bg-primary ${css.container}`}>
 
-  <SmartBanner
+  {/* <SmartBanner
     title={'Facebook'} // Your app title
     author={'Facebook, Inc.'} // Your app author
     force={'ios'} // Force iOS banner
     appStoreLanguage={'us'} // App Store language
     // Other props as needed
-  />
+  /> */}
 
 
       <Header/>
