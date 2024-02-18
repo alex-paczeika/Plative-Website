@@ -55,8 +55,9 @@ const Hero = () => {
 
       </motion.div>
       <motion.p
+
   variants={fadeIn("left", "tween", 0.5, 1)}
-  className={css.paragraph}
+  style={{ marginTop: '50px' }}
 >
 Transformă fiecare călătorie cu mașina într-o oportunitate de a descoperi și de a interacționa cu comunitatea din jurul tău.<br/><br/>
 Această aplicație facilitează comunicarea între șoferi, deschizând calea către un schimb de informații utile, sfaturi despre trafic, recomandări locale și chiar asistență reciprocă în situații neașteptate.
