@@ -22,9 +22,9 @@ const Hero = () => {
             din trafic.
           </motion.span>
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
-          <a href="https://apps.apple.com/ro/app/plative/id1628529979" target="_blank">
+          {/* <a href="https://apps.apple.com/ro/app/plative/id1628529979" target="_blank">
     <img src="appstore.png" alt="Download Plative on the App Store" />
-</a>
+</a> */}
 
           </motion.span>
         </div>
